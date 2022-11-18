@@ -7,22 +7,7 @@ def main():
 
         data = split_comma(reader)
         fish = list(map(int, data))
-        #print(fish)
 
-        """
-        for i in range(21):
-            print("After day", i+1, end=" - ")
-            for i in range(len(fish)):
-                if fish[i] == 0:
-                    fish[i] = 7
-                    fish.append(-1)
-                elif fish[i] == -2:
-                    fish[i] = 7
-                fish[i] -= 1
-            print(len(fish))
-
-        print(len(fish))
-        """
         population = [0,0,0,0,0,0,0,0,0]
         for i in range(9):
             for f in fish:
