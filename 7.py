@@ -21,6 +21,12 @@ def main():
     #print(total_fuel)
     optimum = min(total_fuel)
     print(optimum)
+    print(total_fuel.index(optimum))
+
+    avg = sum(crabs)/len(crabs)
+    print(avg)
+    print(avg-0.5)
+
 
 
 
